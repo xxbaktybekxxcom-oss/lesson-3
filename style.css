@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.container{
+    width: 300px;
+    padding: 30px 0;
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    position: absolute;
+    z-index: 999;
+}
+button{
+    padding: 7px 22px;
+    cursor: pointer;
+    color: #fff;
+}
+button:first-child{
+    background-color:  green;
+    border: 2px solid green;
+}
+button:last-child{
+    background-color: red;
+    border: 2px solid red;
+}
